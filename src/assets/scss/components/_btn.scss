@@ -1,0 +1,42 @@
+/* ------------------------------------------------------------ *\
+	Button
+\* ------------------------------------------------------------ */
+
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	appearance: none;
+	background-color: $blue; 
+	text-transform: uppercase; 
+	color: $c-white; 
+	min-width: 23.3rem;
+	padding: 2rem 1rem 1.8rem; 
+	font-weight: 500;
+	font-size: 1.8rem; 
+	border-radius: 3.1rem; 
+	transition: 
+		background-color $t-duration, 
+		color $t-duration; 
+
+	&:hover {
+		color: $blue; 
+		background-color: $c-white; 
+	}
+}
+
+/*  Btn--alt  */
+
+.btn--alt {
+	font-size: 1.6rem;
+	padding: 2.1rem 1rem 1.8rem;  
+}
+
+/*  Btn--small  */
+
+.btn--small {
+	padding: 1.6rem 1rem 1.2rem; 
+	min-width: 21.3rem;
+}

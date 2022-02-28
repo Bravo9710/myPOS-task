@@ -1,0 +1,83 @@
+/* ------------------------------------------------------------ *\
+	Section
+\* ------------------------------------------------------------ */
+
+.section {
+	position: relative; 
+	overflow: hidden; 
+	padding: 20rem 0 5.1rem; 
+
+	@include breakpoint-down(mobile) {
+		padding: 8rem 0 2rem; 
+	}
+
+	.section__decor--1 {
+		position: absolute; 
+		left: 0; 
+		top: -172rem; 
+	}
+
+	.section__decor--2 {
+		position: absolute; 
+		bottom: -59.6rem; 
+		right: 0; 
+	}
+
+	.section__body {
+		position: relative; 
+		padding-bottom: 12.8rem; 
+	}
+
+	.section__grid {
+		margin: 0 auto; 
+		max-width: 101.7rem; 
+		display: flex; 
+		justify-content: space-between; 
+		flex-wrap: wrap; 
+		padding: 0; 
+	}
+
+	.section__col {
+		flex: 0 0 33.33%; 
+		display: flex; 
+		align-items: center; 
+		padding-bottom: 7.2rem; 
+
+		@include breakpoint-down(small-desktop) {
+			flex: inherit; 
+		}
+	}
+
+	.section__entry {
+		margin-right: -6.4rem; 
+		letter-spacing: .025em; 
+		line-height: 1.5; 
+		font-size: 1.6rem; 
+		font-weight: 400; 
+
+		@include breakpoint-down(small-desktop) {
+			margin-right: 0; 
+		}
+
+		.section__title {
+			margin-bottom: 1.7rem; 
+		}
+
+		.section__actions {
+			padding-top: 4rem; 
+
+			@include breakpoint-down(small-desktop) {
+				padding-top: 2rem; 
+			}
+		}
+	}
+
+	.section__foot {
+		position: relative; 
+
+		.section__title {
+			text-align: center; 
+			margin-bottom: 4.3rem; 
+		}
+	}
+}

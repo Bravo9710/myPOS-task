@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1092.84" height="3118.182" viewBox="0 0 1092.84 3118.182">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: 0.1;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="-1448.91" y="648.938" width="2541.75" height="3118.182" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="-1448.91" y="648.938" width="2541.75" height="3118.182" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjU0MS43NSIgaGVpZ2h0PSIzMTE4LjE4MiIgdmlld0JveD0iMCAwIDI1NDEuNzUgMzExOC4xODIiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIG9wYWNpdHk6IDAuNjg7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIxNjAyLjI3IiB4Mj0iOTM5LjQ4IiB5Mj0iMzExOC4xODIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjMiIHN0b3AtY29sb3I9IiNmZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjMwMSIgc3RvcC1jb2xvcj0iI2ZmZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNTQyIiBzdG9wLWNvbG9yPSIjN2FjOTQzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMC41NDYiIHN0b3AtY29sb3I9IiM3N2M5NDYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjciIHN0b3AtY29sb3I9IiMwMmQwYmQiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjI1NDEuNzUiIGhlaWdodD0iMzExOC4xODIiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Rectangle_109_copy" data-name="Rectangle 109 copy" class="cls-1" d="M-106.93,648.953L1058.22,2735.96c83.14,211.24,11.43,421.76-160.181,470.2l-1761.2,560.97L-1448.89,1797.72Z" transform="translate(0 -648.938)"/>
+</svg>

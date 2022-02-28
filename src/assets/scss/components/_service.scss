@@ -1,0 +1,27 @@
+/* ------------------------------------------------------------ *\
+	Service
+\* ------------------------------------------------------------ */
+
+.service {
+	display: flex; 
+	align-items: center; 
+
+	.service__image {
+		margin-right: 1.6rem; 
+		min-width: 11.8rem;
+		filter: drop-shadow(0 -.5rem 5.7rem rgba($c-black, .1));
+	}
+
+	.service__entry {
+		font-size: 2.4rem; 
+		padding: 1.1rem 0 0; 
+
+		p {
+			margin-bottom: -0.4rem; 
+		}
+
+		strong {
+			font-size: 1.8rem; 
+		}
+	}
+}

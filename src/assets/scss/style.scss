@@ -1,0 +1,32 @@
+/* ------------------------------------------------------------ *\
+  Vendor
+\* ------------------------------------------------------------ */
+
+@import '../../../node_modules/owl.carousel/dist/assets/owl.carousel.min';
+@import '../../../node_modules/owl.carousel/dist/assets/owl.theme.default.min';
+
+/* ------------------------------------------------------------ *\
+	Generic
+\* ------------------------------------------------------------ */
+
+@import 'generic/variables';
+@import 'bootstrap/scss/bootstrap';
+@import 'generic/functions';
+@import 'generic/mixins';
+@import 'generic/reset';
+@import 'generic/fonts';
+@import 'generic/base';
+@import 'generic/helpers';
+
+/* ------------------------------------------------------------ *\
+	Components
+\* ------------------------------------------------------------ */
+
+@import '_sprite.css';
+@import 'components/*';
+
+/* ------------------------------------------------------------ *\
+	Overwrites
+\* ------------------------------------------------------------ */
+
+

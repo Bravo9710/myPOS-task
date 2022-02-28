@@ -1,0 +1,114 @@
+/* ------------------------------------------------------------ *\
+	Item
+\* ------------------------------------------------------------ */
+
+.item {
+	text-align: center; 
+	position: relative; 
+	margin-top: auto; 
+
+	.item__popup {
+		position: absolute; 
+		bottom: 109.5%; 
+		left: 30%; 
+		transform: translateX(-50%); 
+		z-index: 1; 
+		font-weight: 400; 
+		text-align: left; 
+		background-color: $c-white; 
+		border-radius: 1rem; 
+		box-shadow: -.8rem .7rem 9.8rem rgba($c-black, .16);
+		padding: 1.3rem 1.7rem 3.1rem; 
+		min-width: 30.7rem;
+		letter-spacing: .025em; 
+		opacity: 0; 
+		pointer-events: none; 
+		transition: opacity $t-duration; 
+
+		@include breakpoint-down(mobile) {
+			left: 50%; 
+		}
+
+		&:after {
+			content: ''; 
+			display: block; 
+			width: 4rem; 
+			height: 4rem; 
+			background-color: $c-white; 
+			position: absolute; 
+			bottom: -1.2rem; 
+			left: 50%; 
+			transform: translateX(-50%) rotate(45deg); 
+		}
+
+		strong {
+			font-size: 1.8rem; 
+			color: $blue; 
+			margin-bottom: 1.4rem; 
+			display: block; 
+
+		}
+	}
+
+	.item__image {
+		position: relative; 
+		display: inline-block; 
+		margin-bottom: 3.9rem;
+
+		&:hover {
+			color: inherit; 
+		}
+
+		&:hover .item__main {
+			transform: rotate(-14deg); 
+		}
+
+		&:hover .item__popup {
+			pointer-events: all; 
+			opacity: 1; 
+		}
+
+		&:hover:before {
+			transform: rotate(-45deg); 
+			top: 4.1rem;
+			left: -2.8rem;
+			right: -3.8rem;
+			bottom: 1.9rem;
+		}
+
+		&:before {
+			content: ''; 
+			display: block; 
+			position: absolute; 
+			top: 5rem;
+			left: 5rem;
+			right: 5rem;
+			bottom: 5rem;
+			background: linear-gradient(25deg, $blue 0%, $blue2 100%);
+			border-radius: 6rem; 
+			transition: 
+				transform $t-duration,
+				top $t-duration,
+				left $t-duration, 
+				right $t-duration, 
+				bottom $t-duration; 
+		}
+	}
+
+	.item__main {
+		transition: transform $t-duration; 
+		filter: 
+			drop-shadow(-1.8rem 1.8rem 4rem rgba($c-black, .14))
+			drop-shadow(0 .5rem 1.3rem rgba($c-black, .14));
+	}
+
+	.item__price {
+		position: absolute; 
+		right: -6.1rem; 
+		top: -4.3rem; 
+	}
+
+	.item__title {
+		font-size: 2.4rem; 
+	}
+}

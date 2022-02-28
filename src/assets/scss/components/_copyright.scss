@@ -1,0 +1,20 @@
+/* ------------------------------------------------------------ *\
+	Copyright
+\* ------------------------------------------------------------ */
+
+.copyright {
+	font-size: 1.2rem; 
+	max-width: 114rem; 
+	margin: 0 auto; 
+	letter-spacing: .025em; 
+	line-height: 1.33; 
+
+	a {
+		color: $blue; 
+		text-decoration: none; 
+
+		&:hover {
+			text-decoration: underline; 
+		}
+	}
+}

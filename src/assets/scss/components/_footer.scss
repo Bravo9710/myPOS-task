@@ -1,0 +1,61 @@
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+	background-color: $c-base; 
+	color: $c-white; 
+	text-align: center;
+	padding: 3.5rem 0 21.7rem; 
+	font-size: 1.2rem; 
+
+	@include breakpoint-down(mobile) {
+		padding: 3.5rem 0; 
+	}
+
+	.footer__head {
+		max-width: 104rem; 
+		margin: 0 auto; 
+		letter-spacing: .026em; 
+		padding-bottom: 3.3rem; 
+		position: relative; 
+
+		&:after {
+			content: ''; 
+			display: block; 
+			max-width: 70rem; 
+			height: .1rem; 
+			background-color: $gray2; 
+			margin: 0 auto; 
+		}
+	}
+
+	ul {
+		padding: 0; 
+		font-size: 1.4rem; 
+		margin: 3.2rem -.5rem 2rem; 
+		color: $gray3; 
+
+		li {
+			display: inline-block; 
+			padding: 0 .5rem; 
+		}
+
+		li:before {
+			content: '»'; 
+			color: $blue; 
+			display: inline-block; 
+			margin-right: 0.3rem; 
+		}
+
+		a {
+			text-decoration: none; 
+		}
+	}
+
+	.footer__logo {
+		max-width: 8rem; 
+		margin: 0 auto 3.2rem; 
+		opacity: .65; 
+	}
+}

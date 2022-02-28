@@ -1,0 +1,39 @@
+/* ------------------------------------------------------------ *\
+	Slider
+\* ------------------------------------------------------------ */
+
+.slider {
+	.owl-stage-outer {
+		overflow: visible; 
+	}
+
+	.owl-item.center .testimonial {
+		box-shadow: -.08rem 1.5rem 7rem rgba($c-black, .17);
+		border: .1rem solid transparent; 
+	}
+
+	.slider__paging {
+		text-align: center; 
+		padding-top: 4.3rem; 
+	}
+
+	.slider__dot {
+		width: 1.5rem; 
+		height: 1.5rem; 
+		background-color: red; 
+		border-radius: 50%; 
+		border: none; 
+		background-color: $blue3; 
+		margin: 0 0.75rem; 
+		transition: 
+			width $t-duration,
+			height $t-duration, 
+			background-color $t-duration; 
+	}
+
+	.slider__dot.active {
+		height: 1.9rem; 
+		width: 1.9rem; 
+		background-color: $blue; 
+	}
+}

@@ -1,0 +1,28 @@
+/* ------------------------------------------------------------ *\
+	Services
+\* ------------------------------------------------------------ */
+
+.services {
+	display: flex; 
+	justify-content: space-between; 
+	flex-wrap: wrap; 
+	max-width: 103.2rem; 
+	margin-left: auto; 
+	margin-right: -0.9rem; 
+
+	@include breakpoint-down(small-desktop) {
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+
+	ul {
+		list-style-type: none; 
+		padding: 0; 
+		margin: 0 -1rem; 
+	}
+
+	li {
+		padding: 0 1rem 5.6rem; 
+		flex: 0 0 50%; 
+	}
+}

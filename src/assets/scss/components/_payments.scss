@@ -1,0 +1,18 @@
+/* ------------------------------------------------------------ *\
+	Payments
+\* ------------------------------------------------------------ */
+
+.payments {
+	ul {
+		list-style-type: none; 
+		padding: 0; 
+		display: flex; 
+		justify-content: center; 
+		margin: 0 -1rem; 
+		flex-wrap: wrap; 
+	}
+
+	li {
+		padding: 1rem 1rem 0; 
+	}
+}

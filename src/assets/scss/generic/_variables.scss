@@ -1,0 +1,39 @@
+//Variables
+$font-size-base             : 1.6rem;
+$font-weight-base           : 300;
+$line-height-base           : 1.2;
+$letter-spacing-base        : .038em; 
+
+$ff-sans-serif              : 'Roboto', sans-serif;
+$ff-serif                   : Georgia, "Times New Roman", Times, serif;
+
+$t-duration                 : 0.4s;
+
+$container-big-max-width    : 167.7rem;
+$container-max-width        : 113.8rem;
+$container-gutter           : 1.5rem;
+
+$c-black                    : #000;
+$c-white                    : #fff;
+$c-base                     : #333333;
+
+$gray                       : #363636;
+$gray2                      : #959595;
+$gray3                      : #cfcfcf;
+$gray4                      : #dadada;
+
+$blue                       : #048EF8;
+$blue2                      : #09C1DC;
+$blue3                      : #C0CBE1;
+
+$responsive-ios             : 812px;
+
+$breakpoints: (
+	mobile-small: 374px,
+	mobile-medium: 575px,
+	mobile: 767px,
+	admin-bar: 782px,
+	tablet: 1023px,
+	small-desktop: 1199px,
+	large-desktop: 1399px
+);

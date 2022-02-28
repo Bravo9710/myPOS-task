@@ -1,0 +1,11 @@
+/* ------------------------------------------------------------ *\
+	container
+\* ------------------------------------------------------------ */
+
+.container {
+	max-width: calc( #{$container-max-width} + #{$container-gutter} * 2 );
+}
+
+.container--big {
+	max-width: calc( #{$container-big-max-width} + #{$container-gutter} * 2 );
+}

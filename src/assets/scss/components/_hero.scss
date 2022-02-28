@@ -1,0 +1,106 @@
+/* ------------------------------------------------------------ *\
+	Hero
+\* ------------------------------------------------------------ */
+
+.hero {
+	position: relative; 
+	padding-bottom: 6.2rem; 
+
+	.hero__background {
+		height: 96.6rem; 
+		position: absolute; 
+		top: 0; 
+		left: 50%; 
+		right: 0; 
+		width: 100%; 
+		transform: translateX(-50%); 
+		mask-image: url('../images/temp/hero-mask.svg');
+		mask-repeat: no-repeat;
+		mask-position: 50% 49%;
+
+		img {
+			width: 100%; 
+			height: 100%; 
+			object-fit: cover; 
+			transform: scale(1.89); 
+			margin-left: -23.8rem; 
+			margin-top: 5.9rem; 
+
+			@include breakpoint-down(mobile) {
+				margin-left: 0; 
+			}
+		}
+	}
+
+	.hero__head {
+		position: relative; 
+		text-align: center; 
+		padding: 8.8rem 0 4.9rem; 
+		color: $c-white; 
+		font-size: 2.4rem; 
+	}
+
+	.hero__logo {
+		display: block; 
+		margin-bottom: 10.3rem; 
+	}
+
+	.hero__title {
+		margin-bottom: 1.7rem; 
+	}
+
+	.hero__entry {
+		padding-bottom: 6.8rem; 
+	}
+
+	.hero__body {
+		position: relative; 
+		padding-bottom: 5.5rem; 
+	}
+
+	.hero__image {
+		text-align: center; 
+		padding-left: 4.4rem; 
+
+		@include breakpoint-down(mobile) {
+			padding-left: 0; 
+		}
+	}
+
+	.hero__col {
+		display: flex; 
+		align-items: flex-end; 
+		flex-direction: column; 
+		justify-content: flex-end; 
+
+		@include breakpoint-down(mobile) {
+			justify-content: center; 
+			align-items: center; 
+			padding-bottom: 5rem; 
+		}
+	}
+
+	.hero__col-shadow {
+		@include breakpoint-down(mobile) {
+			display: none; 
+		}
+	}
+
+	.hero__col-shadow--adjust {
+		margin-right: -7.2rem; 
+
+		@include breakpoint-down(small-desktop) {
+			margin-right: -4rem; 
+		}
+	}
+
+	.hero__foot {
+		max-width: 119rem; 
+		margin: 0 auto; 
+
+		.hero__title {
+			text-align: center; 
+			margin-bottom: 7.8rem; 
+		}
+	}
+}
